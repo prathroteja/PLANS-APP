@@ -16,7 +16,7 @@ import jakarta.persistence.Table;
 public class Plan {
 	
 	@Id
-	@GeneratedValue
+	//@GeneratedValue
 	private Integer planId;
 	private String planName;
 	private String planstartDate;

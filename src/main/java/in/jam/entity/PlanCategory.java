@@ -16,7 +16,7 @@ import jakarta.persistence.Table;
 @Table(name="PLAN")
 public class PlanCategory {
 	@Id
-	@GeneratedValue
+	//@GeneratedValue
 	@Column(name="CATEGORY-ID")
 	private Integer categoryId;
 	private String categoryName;
